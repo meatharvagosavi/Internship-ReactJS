@@ -1,0 +1,10 @@
+const Task = {
+  id: string,
+  title: string,
+  description: string,
+  startDate: Date,
+  endDate: Date, // Only present in completed tasks
+  status: "Pending" | "In Progress" | "Completed" | "Deployed" | "Deferred",
+  assignee: string,
+  priority: "P0" | "P1" | "P2"
+};
