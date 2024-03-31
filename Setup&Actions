@@ -1,0 +1,12 @@
+*for setup -
+npx create-react-app task-tracker
+cd task-tracker
+
+*for install -
+npm install react-datepicker
+
+*Create components for your Task Tracker:
+TaskForm.js (for adding tasks)
+TaskList.js (for displaying tasks)
+Task.js (for individual task)
+TaskFilter.js (for filtering tasks)
